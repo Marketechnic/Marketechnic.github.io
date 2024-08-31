@@ -11,11 +11,7 @@ Marketechnic is a technical marketing & sales consulting company, led by a seaso
 
 ## About Me
 
-I'm a technical sales and marketing expert with two decades of international experience. My work has taken me across the globe, allowing me to develop a deep understanding of the intricacies of different markets and industries.
-
-In addition to my technical expertise, I am highly skilled in research and data science, proficient in a wide range of tools including Tableau, SPSS, AMOS, Stata, Smart PLS, Python, SAS, SQL, Power BI, Access, and more. These skills enable me to provide data-driven insights and strategies that drive business success.
-
-Currently, I leverage my vast cross-functional and cross-border experience to educate the next generation of business leaders as a Clinical Assistant Professor of Marketing and Sales at Kennesaw State University. Alongside my academic role, I consult for international family businesses, helping them navigate the complexities of the global market.
+As a Clinical Assistant Professor teaching Executive MBAs at Kennesaw State University, I leverage my global experience to educate future business leaders and consult for family businesses worldwide.  I also have extensive expertise in research and data science, using tools like Tableau, SPSS, and Python and am an electrical engineer by trade.
 
 ## Services
 
@@ -23,9 +19,10 @@ At Marketechnic, we offer comprehensive consulting services in the following are
 - Technical Sales & Marketing Strategies
 - Market Research & Data Analysis
 - Cross-Border Business Development
-- International Family Business Consulting
+- International Trade & EXIM
+- Family Business Consulting
 
 ## Get in Touch
 
-Interested in learning more about how Marketechnic can help your business? Contact us today at marko@marketechnic.com!
+Interested in learning more about how Marketechnic can help your business? Contact us today at [marko@marketechnic.com](mailto:marko@marketechnic.com).
 
