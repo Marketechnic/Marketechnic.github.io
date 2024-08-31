@@ -27,5 +27,5 @@ At Marketechnic, we offer comprehensive consulting services in the following are
 
 ## Get in Touch
 
-Interested in learning more about how Marketechnic can help your business? Contact us today!
+Interested in learning more about how Marketechnic can help your business? Contact us today at marko@marketechnic.com!
 
