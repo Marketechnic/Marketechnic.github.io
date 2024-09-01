@@ -5,7 +5,7 @@ title: Marketechnic
 
 # Welcome to Marketechnic
 
-![Marketechnic Logo](Marketechnic.gif)
+![Marketechnic](Marketechnic.gif)
 
 ## Navigation
 
