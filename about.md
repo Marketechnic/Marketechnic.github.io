@@ -10,8 +10,8 @@ title: About
 
 ## About
 
-Marketechnic is led by a seasoned expert with 20 years of global experience in the industrial equipment segment with roles including engineering, program management, and SVP of Marketing & Sales.
+Marketechnic is led by a seasoned expert with 20 years of global experience in the industrial equipment segment with roles progressing across engineering, program management, to SVP of Marketing & Sales.
 
-As a Clinical Assistant Professor teaching Executive MBAs at Kennesaw State University, I draw on my global experience to educate future business leaders and provide consulting services to family businesses around the world. 
+Now, as a Clinical Assistant Professor teaching Executive MBAs at Kennesaw State University, I draw on my global experience to educate future business leaders and provide consulting services to family businesses around the world. 
 
-Along with my electrical engineering backgroung, my expertise extends to research and data science, where I utilize tools like Tableau, SPSS, and Python.
+Along with my electrical engineering background, my expertise extends to research and data science, where I utilize tools like Tableau, SPSS, and Python.
