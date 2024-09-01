@@ -8,7 +8,7 @@ title: Marketechnic
 ## Navigation
 
 - [Home](index.md)
-- [About](aboutme.md)
+- [About](about.md)
 - [Contact](contact.md)
 
 ## About Marketechnic
