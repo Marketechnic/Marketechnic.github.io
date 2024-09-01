@@ -5,6 +5,8 @@ title: Marketechnic
 
 # Welcome to Marketechnic
 
+![Marketechnic Logo](Marketechnic.gif)
+
 ## Navigation
 
 - [Home](index.md)
