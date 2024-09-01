@@ -12,4 +12,4 @@ title: Contact
 
 Interested in learning more about how Marketechnic can help your business? 
 
-Get in touch with us today at [marko@marketechnic.com](mailto:marko@marketechnic.com).
+Get in touch with me today at [marko@marketechnic.com](mailto:marko@marketechnic.com).
