@@ -2,16 +2,15 @@
 layout: default
 title: Marketechnic
 ---
-
-# Welcome to Marketechnic
-
-![Marketechnic Logo](MARKETECHNIC.gif)
-
 ## Navigation
 
 - [Home](index.md)
 - [About](about.md)
 - [Contact](contact.md)
+
+# Welcome to Marketechnic
+
+![Marketechnic Logo](MARKETECHNIC.gif)
 
 ## About Marketechnic
 
