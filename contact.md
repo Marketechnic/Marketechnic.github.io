@@ -5,7 +5,7 @@ title: Contact
 ## Navigation
 
 - [Home](index.md)
-- [About Me](about.md)
+- [About](about.md)
 - [Contact](contact.md)
   
 ## Contact
