@@ -18,8 +18,3 @@ At Marketechnic, we offer comprehensive consulting services in the following are
 - Cross-Border Business Development
 - International Trade & EXIM
 - Family Business Consulting
-
-## Get in Touch
-
-Interested in learning more about how Marketechnic can help your business? Contact us today at [marko@marketechnic.com](mailto:marko@marketechnic.com).
-
