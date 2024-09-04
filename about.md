@@ -10,7 +10,7 @@ title: About
 
 ## About
 
-Marketechnic is led by a seasoned expert with 20 years of global experience in the industrial equipment segment with roles progressing across engineering, program management, to SVP of Marketing & Sales.
+Marketechnic is led by a seasoned expert with 20 years of global experience in industrial equipment with roles progressing from engineering, to program management, to SVP of Marketing & Sales.
 
 Now, as a Clinical Assistant Professor teaching Executive MBAs at Kennesaw State University, I draw on my global experience to educate future business leaders and provide consulting services to family businesses around the world. 
 
