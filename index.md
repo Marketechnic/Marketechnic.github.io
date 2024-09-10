@@ -10,7 +10,7 @@ title: Marketechnic
 
 ## Home
 
-Marketechnic is a technical marketing & sales consulting company that brings unparalleled expertise to every project.
+Marketechnic provides technical marketing & sales consulting for those that want unparalleled expertise for every project.
 
 We offer comprehensive consulting services in the following areas:
 - Technical Sales & Marketing
