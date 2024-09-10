@@ -8,9 +8,9 @@ title: Marketechnic
 - [About](about.md)
 - [Contact](contact.md)
 
-## Marketechnic
+## Home
 
-Marketechnic is a technical marketing & sales consulting company, specializing in engine-driven equipment for power generation, marine, industrial, automotive, and aerospace/defense applications, bringing unparalleled expertise to every project.
+Marketechnic is a technical marketing & sales consulting company, bringing unparalleled expertise to every project.
 
 At Marketechnic, we offer comprehensive consulting services in the following areas:
 - Technical Sales & Marketing
@@ -18,3 +18,4 @@ At Marketechnic, we offer comprehensive consulting services in the following are
 - Cross-Border Business Development
 - International Trade & EXIM 
 - Family Business Strategy
+- Engineering, NPD, Innovation
