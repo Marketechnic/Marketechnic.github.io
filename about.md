@@ -10,4 +10,4 @@ title: About
 
 ## About
 
-Marketechnic is led by a seasoned cross-functional expert with 20 years of global experience in industrial equipment.
+Marketechnic is led by a seasoned cross-functional expert with 20 years of global experience specializing in engine-driven equipment for power generation, marine, industrial, automotive, and aerospace/defense applications.
