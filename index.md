@@ -12,7 +12,7 @@ title: Marketechnic
 
 Marketechnic provides technical marketing & sales consulting for those that want unparalleled expertise for every project.
 
-We offer comprehensive consulting services in the following areas:
+We offer comprehensive services in the following areas:
 - Technical Sales & Marketing
 - Market Research & Data Analytics
 - Cross-Border Business Development
