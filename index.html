@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marketechnic - Technical Marketing Consulting Services">
+    <title>Marketechnic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('https://github.com/Marketechnic/Marketechnic.github.io/blob/main/Globe.jfif') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px; /* Adjust size */
+            height: auto;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+        header .cta {
+            margin-top: 40px;
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            background-color: #ff5733;
+            border: none;
+            color: white;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff5733;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #ff4500;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://github.com/Marketechnic/Marketechnic.github.io/blob/main/MARKETECHNIC.gif" alt="Marketechnic Logo" class="logo">
+    <div>
+        <h1>Marketechnic</h1>
+        <p>Your Partner in Technical Marketing & Sales Excellence</p>
+        <button class="cta">Get Started</button>
+    </div>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>We specialize in technical marketing, data-driven sales strategies, and international business development. Our solutions are customized to elevate your business in today's digital world.</p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <h3>Technical Sales & Marketing</h3>
+            <p>Advanced strategies to optimize your technical sales process and enhance marketing reach.</p>
+        </div>
+        <div class="service-card">
+            <h3>Market Research & Data Analytics</h3>
+            <p>In-depth market analysis and data-driven insights to drive business decisions.</p>
+        </div>
+        <div class="service-card">
+            <h3>Cross-Border Business Development</h3>
+            <p>Expand your business globally with our expert cross-border consulting services.</p>
+        </div>
+        <div class="service-card">
+            <h3>International Trade & EXIM</h3>
+            <p>Comprehensive export and import strategies to streamline international trade.</p>
+        </div>
+        <div class="service-card">
+            <h3>Family Business Strategy</h3>
+            <p>Solutions to navigate the complexities of family-run businesses and ensure growth.</p>
+        </div>
+        <div class="service-card">
+            <h3>Engineering, NPD, Innovation</h3>
+            <p>Innovative product development and engineering support to bring new ideas to life.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="mailto:marko@marketechnic.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
