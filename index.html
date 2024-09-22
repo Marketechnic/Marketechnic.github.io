@@ -56,30 +56,17 @@
         .service-card:hover {
             transform: scale(1.05);
         }
-        .contact-form {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 8px;
-            max-width: 600px;
-            margin: 0 auto;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 15px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
+        .contact-link {
             background-color: #ff5733;
             color: white;
             padding: 15px 20px;
             border: none;
             cursor: pointer;
             border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
         }
-        .contact-form button:hover {
+        .contact-link:hover {
             background-color: #ff4500;
         }
         @keyframes fadeIn {
@@ -135,12 +122,7 @@
 
 <section>
     <h2>Contact Us</h2>
-    <form class="contact-form" action="mailto:marko@marketechnic.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
+    <a href="mailto:marko@marketechnic.com?subject=Contact%20Form%20Submission&body=Name:%20%0D%0AEmail:%20%0D%0AMessage:%20" class="contact-link">Send Email</a>
 </section>
 
 </body>
