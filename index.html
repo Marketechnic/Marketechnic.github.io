@@ -46,20 +46,20 @@
             padding: 30px 20px; /* Tighten spacing */
             text-align: center;
         }
-        .services {
+        .services, .resources {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            justify-content: center; /* Center the service tiles */
+            justify-content: center; /* Center the tiles */
         }
-        .service-card {
+        .service-card, .resource-card {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out;
         }
-        .service-card:hover {
+        .service-card:hover, .resource-card:hover {
             transform: scale(1.05);
         }
         .contact-link {
@@ -137,6 +137,17 @@
         <div class="service-card">
             <h3>Federal Contract Writing & Support</h3>
             <p>Expert in creating compliant and compelling proposals for federal opportunities to secure and manage government contracts.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Free Resources</h2>
+    <div class="resources">
+        <div class="resource-card">
+            <h3>AI Business Surveys</h3>
+            <p>Click Here for our Free AI Business Scales/Surveys</p>
+            <a href="https://www.marketechnic.com/ai-business-scales.html" class="contact-link">Learn More</a>
         </div>
     </div>
 </section>
