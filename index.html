@@ -50,13 +50,13 @@
             padding: 30px 20px;
             text-align: center;
         }
-        .services, .resources {
+        .services {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             justify-content: center;
         }
-        .service-card, .resource-card {
+        .service-card {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
@@ -64,9 +64,27 @@
             transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
             opacity: 0;
             animation: fadeInUp 0.6s ease-in-out forwards;
+            position: relative;
         }
-        .service-card:hover, .resource-card:hover {
+        .service-card:hover {
             transform: scale(1.05);
+        }
+        .service-card .tooltip {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .service-card:hover .tooltip {
+            display: block;
         }
         .contact-link {
             background-color: #ff5733;
@@ -116,7 +134,7 @@
 
 <section>
     <h2>About Us</h2>
-    <p>We specialize in technical marketing, data-driven sales strategies, AI & digital transformation, and business development. Our solutions are customized to elevate your business in today's digital world.</p>
+    <p>We specialize in technical marketing, data-driven sales strategies, AI & digital transformation, and international business development. Our solutions are customized to elevate your business in today's digital world.</p>
 </section>
 
 <section>
@@ -125,52 +143,22 @@
         <div class="service-card" style="animation-delay: 0.1s;">
             <i class="fas fa-chart-line fa-2x"></i>
             <h3>Technical Sales & Marketing</h3>
-            <p>Advanced strategies to optimize your technical sales process and enhance marketing reach.</p>
+            <div class="tooltip">Advanced strategies to optimize your technical sales process and enhance marketing reach.</div>
         </div>
         <div class="service-card" style="animation-delay: 0.2s;">
             <i class="fas fa-database fa-2x"></i>
             <h3>Market Research & Data Analytics</h3>
-            <p>In-depth market analysis and data-driven insights to drive business decisions.</p>
+            <div class="tooltip">In-depth market analysis and data-driven insights to drive business decisions.</div>
         </div>
         <div class="service-card" style="animation-delay: 0.3s;">
             <i class="fas fa-globe fa-2x"></i>
             <h3>Cross-Border Business Development</h3>
-            <p>Expand your business globally with our expert cross-border consulting services.</p>
+            <div class="tooltip">Expand your business globally with our expert cross-border consulting services.</div>
         </div>
         <div class="service-card" style="animation-delay: 0.4s;">
             <i class="fas fa-truck fa-2x"></i>
             <h3>International Trade & EXIM</h3>
-            <p>Comprehensive export and import strategies to streamline international trade.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 0.5s;">
-            <i class="fas fa-users fa-2x"></i>
-            <h3>Family & Private Business Strategy</h3>
-            <p>Solutions to navigate the complexities of family-run and privately-held businesses to ensure growth.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 0.6s;">
-            <i class="fas fa-lightbulb fa-2x"></i>
-            <h3>Engineering, NPD, Innovation</h3>
-            <p>Innovative product development and engineering support to bring new ideas to life.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 0.7s;">
-            <i class="fas fa-user-cog fa-2x"></i>
-            <h3>Cross-Functional Training & Leadership</h3>
-            <p>Comprehensive training programs to build cross-functional skills and leadership capabilities.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 0.8s;">
-            <i class="fas fa-search fa-2x"></i>
-            <h3>Digital Marketing & Content Strategy</h3>
-            <p>Tailored digital marketing solutions, AI-integration, SEO, and content strategies to boost your brand's online presence.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 0.9s;">
-            <i class="fas fa-robot fa-2x"></i>
-            <h3>AI Strategy Development & Transformation</h3>
-            <p>Leverage AI and advanced technologies to enhance operational efficiency and drive innovation.</p>
-        </div>
-        <div class="service-card" style="animation-delay: 1s;">
-            <i class="fas fa-file-contract fa-2x"></i>
-            <h3>Federal Contract Writing & Support</h3>
-            <p>Expert services to create compliant and compelling proposals for federal opportunities.</p>
+            <div class="tooltip">Comprehensive export and import strategies to streamline international trade.</div>
         </div>
     </div>
 </section>
