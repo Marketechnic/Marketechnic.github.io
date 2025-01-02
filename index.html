@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Marketechnic - Technical & Marketing Consulting Services">
     <title>Marketechnic</title>
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-13CR70JBXG"></script>
     <script>
@@ -23,7 +23,8 @@
             background-color: #f4f4f4;
         }
         header {
-            background: url('https://raw.githubusercontent.com/Marketechnic/Marketechnic.github.io/refs/heads/main/Globe.jfif') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url('https://www.marketechnic.com/DALL%C2%B7E%202025-01-02%2015.25.29%20-%20A%20professional%20header%20background%20image%20representing%20technical%20marketing%20and%20innovation,%20featuring%20a%20blend%20of%20industrial%20equipment%20such%20as%20gears,%20circu.webp') no-repeat center center/cover;
             height: 100vh;
             color: white;
             display: flex;
@@ -34,7 +35,9 @@
             position: relative;
         }
         header h1 {
-            font-size: 3.5rem;
+            font-size: 4rem;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 2px;
             animation: fadeIn 2s ease-in-out;
         }
         header p {
@@ -42,15 +45,19 @@
             margin-top: 20px;
             animation: fadeIn 2s ease-in-out 1s;
         }
+        header img {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
         section {
-            padding: 30px 20px; /* Tighten spacing */
+            padding: 30px 20px;
             text-align: center;
         }
         .services, .resources {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            justify-content: center; /* Center the tiles */
+            justify-content: center;
         }
         .service-card, .resource-card {
             background-color: white;
@@ -85,8 +92,9 @@
 
 <header>
     <div>
+        <img src="https://via.placeholder.com/150" alt="Marketechnic Logo">
         <h1>Marketechnic</h1>
-        <p>Your Partner in Technical Marketing & Sales Excellence</p>
+        <p>Driving Innovation and Excellence in Technical Marketing</p>
     </div>
 </header>
 
