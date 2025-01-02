@@ -16,6 +16,7 @@
     </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -60,7 +61,9 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease-in-out;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-in-out forwards;
         }
         .service-card:hover, .resource-card:hover {
             transform: scale(1.05);
@@ -82,6 +85,24 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff5733;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -101,45 +122,25 @@
 <section>
     <h2>Our Services</h2>
     <div class="services">
-        <div class="service-card">
+        <div class="service-card" style="animation-delay: 0.1s;">
+            <i class="fas fa-chart-line fa-2x"></i>
             <h3>Technical Sales & Marketing</h3>
             <p>Advanced strategies to optimize your technical sales process and enhance marketing reach.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" style="animation-delay: 0.2s;">
+            <i class="fas fa-database fa-2x"></i>
             <h3>Market Research & Data Analytics</h3>
             <p>In-depth market analysis and data-driven insights to drive business decisions.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" style="animation-delay: 0.3s;">
+            <i class="fas fa-globe fa-2x"></i>
             <h3>Cross-Border Business Development</h3>
             <p>Expand your business globally with our expert cross-border consulting services.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" style="animation-delay: 0.4s;">
+            <i class="fas fa-truck fa-2x"></i>
             <h3>International Trade & EXIM</h3>
             <p>Comprehensive export and import strategies to streamline international trade.</p>
-        </div>
-        <div class="service-card">
-            <h3>Family Business Strategy</h3>
-            <p>Solutions to navigate the complexities of family-run businesses and ensure growth.</p>
-        </div>
-        <div class="service-card">
-            <h3>Engineering, NPD, Innovation</h3>
-            <p>Innovative product development and engineering support to bring new ideas to life.</p>
-        </div>
-        <div class="service-card">
-            <h3>Cross-Functional Training and Leadership Development</h3>
-            <p>Comprehensive training programs designed to build cross-functional skills and leadership capabilities.</p>
-        </div>
-        <div class="service-card">
-            <h3>Digital Marketing and Content Strategy</h3>
-            <p>Tailored digital marketing solutions, AI-integration, SEO, and content strategies to boost your brand's online presence.</p>
-        </div>
-        <div class="service-card">
-            <h3>AI Strategy Development & Digital Transformation</h3>
-            <p>Leverage AI and advanced technologies to enhance operational efficiency, improve decision-making, and drive innovation.</p>
-        </div>
-        <div class="service-card">
-            <h3>Federal Contract Writing & Support</h3>
-            <p>Expert in creating compliant and compelling proposals for federal opportunities to secure and manage government contracts.</p>
         </div>
     </div>
 </section>
@@ -159,6 +160,15 @@
     <h2>Contact Us</h2>
     <a href="mailto:contact@marketechnic.com?subject=Contact%20Submission" class="contact-link">Send Email</a>
 </section>
+
+<footer>
+    <p>&copy; 2025 Marketechnic. All Rights Reserved.</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a>
+    </p>
+    
+</footer>
 
 </body>
 </html>
