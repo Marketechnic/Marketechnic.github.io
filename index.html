@@ -29,38 +29,89 @@
             height: 50vh;
             color: white;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             position: relative;
         }
-        header img {
+        .logo-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 300px;
+            text-align: center;
+        }
+        .logo-box img {
+            max-width: 100%;
             height: auto;
-            margin-bottom: 20px;
+            border-radius: 8px;
         }
-        header h1 {
-            font-size: 4rem;
-            font-family: 'Roboto', sans-serif;
-            letter-spacing: 2px;
-            animation: fadeIn 2s ease-in-out;
+        section {
+            padding: 30px 20px;
+            text-align: center;
         }
-        header p {
-            font-size: 1.5rem;
-            margin-top: 20px;
-            animation: fadeIn 2s ease-in-out 1s;
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
         }
-        /* Remaining CSS as is */
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-in-out forwards;
+            position: relative;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .contact-link {
+            background-color: #ff5733;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .contact-link:hover {
+            background-color: #ff4500;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff5733;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <div>
+    <div class="logo-box">
         <img src="https://marketechnic.github.io/Marketechnic_Logo_Mountains-No_background-transformed.jpeg" alt="Marketechnic Logo">
-        <h1>Marketechnic</h1>
-        <p>Driving Innovation and Excellence in Technical Marketing</p>
     </div>
 </header>
 
@@ -68,71 +119,19 @@
     <h2>About Us</h2>
     <p>We specialize in technical marketing, data-driven sales strategies, AI & digital transformation, and international business development. Our solutions are customized to elevate your business in today's digital world.</p>
 </section>
-    
+
 <section>
     <h2>Our Services</h2>
     <div class="services">
         <div class="service-card" style="animation-delay: 0.1s;">
             <i class="fas fa-chart-line fa-2x"></i>
             <h3>Technical Sales & Marketing</h3>
-            <div class="tooltip">Advanced strategies to optimize your technical sales process and enhance marketing reach.</div>
         </div>
         <div class="service-card" style="animation-delay: 0.2s;">
             <i class="fas fa-database fa-2x"></i>
             <h3>Market Research & Data Analytics</h3>
-            <div class="tooltip">In-depth market analysis and data-driven insights to drive business decisions.</div>
         </div>
-        <div class="service-card" style="animation-delay: 0.3s;">
-            <i class="fas fa-globe fa-2x"></i>
-            <h3>Cross-Border Business Development</h3>
-            <div class="tooltip">Expand your business globally with our expert cross-border consulting services.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.4s;">
-            <i class="fas fa-truck fa-2x"></i>
-            <h3>International Trade & EXIM</h3>
-            <div class="tooltip">Comprehensive export and import strategies to streamline international trade.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.5s;">
-            <i class="fas fa-users fa-2x"></i>
-            <h3>Family & Private Business Strategy</h3>
-            <div class="tooltip">Solutions to navigate the complexities of family-run and privately-held businesses to ensure growth.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.6s;">
-            <i class="fas fa-lightbulb fa-2x"></i>
-            <h3>Engineering, NPD, Innovation</h3>
-            <div class="tooltip">Innovative product development and engineering support to bring new ideas to life.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.7s;">
-            <i class="fas fa-user-cog fa-2x"></i>
-            <h3>Cross-Functional Training & Leadership</h3>
-            <div class="tooltip">Comprehensive training programs to build cross-functional skills and leadership capabilities.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.8s;">
-            <i class="fas fa-search fa-2x"></i>
-            <h3>Digital Marketing & Content Strategy</h3>
-            <div class="tooltip">Tailored digital marketing solutions, AI-integration, SEO, and content strategies to boost your brand's online presence.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 0.9s;">
-            <i class="fas fa-robot fa-2x"></i>
-            <h3>AI Strategy Development & Transformation</h3>
-            <div class="tooltip">Leverage AI and advanced technologies to enhance operational efficiency and drive innovation.</div>
-        </div>
-        <div class="service-card" style="animation-delay: 1s;">
-            <i class="fas fa-file-contract fa-2x"></i>
-            <h3>Federal Contract Writing & Support</h3>
-            <div class="tooltip">Expert services to create compliant and compelling proposals for federal opportunities.</div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Free Resources</h2>
-    <div class="resources">
-        <div class="resource-card">
-            <h3>AI Business Surveys</h3>
-            <p>Click Here for our Free AI Business Scales/Surveys</p>
-            <a href="https://www.marketechnic.com/ai-business-scales.html" class="contact-link">Learn More</a>
-        </div>
+        <!-- Add additional service cards here -->
     </div>
 </section>
 
