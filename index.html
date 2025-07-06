@@ -477,5 +477,34 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+    // Simple counter function
+    function animateCounter(id, target, duration = 2000) {
+        const el = document.getElementById(id);
+        if (!el) return;
+
+        let start = 0;
+        const increment = target / (duration / 30);
+
+        const interval = setInterval(() => {
+            start += increment;
+            if (start >= target) {
+                el.textContent = target.toLocaleString();
+                clearInterval(interval);
+            } else {
+                el.textContent = Math.floor(start).toLocaleString();
+            }
+        }, 30);
+    }
+
+    // When DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+        animateCounter("projects-counter", 128);
+        animateCounter("clients-counter", 76);
+        animateCounter("about-projects-counter", 128);
+        animateCounter("about-clients-counter", 76);
+        animateCounter("about-roi-counter", 300); // Example: 300% ROI
+    });
+</script>
 </body>
 </html>
